@@ -1,0 +1,90 @@
+:root {
+  /* Cores Principais */
+  --red: #E3464E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+  /* Cores Base */
+  --gray-100: #0D0E11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
+  /* Exemplo de outras variáveis úteis */
+  --bg-color: var(--gray-100);
+  /* Cor de fundo */
+  --text-color-primary: var(--gray-600);
+  /* Cor principal do texto */
+  --text-color-secondary: var(--gray-500);
+  /* Cor secundária do texto */
+  --border-color: var(--gray-400);
+
+}
+/* Definição de variáveis globais para as fontes */
+:root {
+  --font-asap: 'Asap', sans-serif;
+  --font-inconsolata: 'Inconsolata', monospace;
+  --font-maven-pro: 'Maven Pro', sans-serif;
+  --font-size-title-lg: 56px;
+  --font-size-title-md: 24px;
+  --font-size-title-sm: 16px;
+  --font-size-subtitle: 20px;
+  --font-size-text-md: 16px;
+  --font-size-text-sm: 14px;
+  --line-height: 1.2;
+}
+
+/* Estilos globais */
+body {
+  font-family: var(--font-maven-pro);
+}
+
+/* Estilo dos Títulos */
+h1 {
+  font-family: var(--font-asap);
+  font-size: var(--font-size-title-lg);
+  line-height: var(--line-height);
+  font-weight: 700; /* Bold */
+  color: var(--gray-600);
+
+}
+
+h2 {
+  font-family: var(--font-asap);
+  font-size: var(--font-size-title-md);
+  line-height: var(--line-height);
+  font-weight: 700; /* Bold */
+}
+
+h3 {
+  font-family: var(--font-asap);
+  font-size: var(--font-size-title-sm);
+  line-height: var(--line-height);
+  font-weight: 700; /* Bold */
+}
+
+/* Estilo do Subtítulo */
+.subtitle {
+  font-family: var(--font-inconsolata);
+  font-size: var(--font-size-subtitle);
+  line-height: var(--line-height);
+  font-weight: 400; /* Regular */
+}
+
+/* Estilo do Texto */
+p {
+  font-family: var(--font-maven-pro);
+  font-size: var(--font-size-text-md);
+  line-height: 1.4;
+  font-weight: 400; /* Regular */
+}
+
+p.small {
+  font-family: var(--font-maven-pro);
+  font-size: var(--font-size-text-sm);
+  line-height: 1.4;
+  font-weight: 400; /* Regular */
+}
+
