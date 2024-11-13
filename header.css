@@ -1,0 +1,22 @@
+header {
+  width: 680px;
+  height: 327px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+  p.subtitle {
+
+    color: #C0C4CE;
+  }
+
+  p.small {
+    color: #878EA1;
+  }
+
+
+  span {
+    color: #E3464E;
+  }
