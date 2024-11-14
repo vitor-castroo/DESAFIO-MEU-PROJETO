@@ -17,9 +17,9 @@ header {
 }
 
 .container {
-  
-  width: 680px;
-  height: auto;
+  justify-items: center;
+  width: 1040px;
+  height: 447px;
   margin: 0 auto;
   text-align: center;
 }
@@ -31,8 +31,8 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 56px;
- width: 112px;
- height: 112px;
+  width: 112px;
+  height: 112px;
 
 }
 
