@@ -27,39 +27,46 @@ header {
 
 
 .avatar-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 56px;
   width: 112px;
   height: 112px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 
-}
-
-  .outer-circle {
- 
-    justify-content: center;
-    align-items: center;
-   
-    padding: 5px;
-    /* Espaçamento interno de 12 pixels */
-    border: 2px solid #E3464E;
-    /* Borda de 2 pixels na cor #E3464E */
-    border-radius: 80%;
-  }
-
-  #perfil {
-    width: 87px;
-    height: 87px;
-  }
   
 
 
+}
+
+
+.inner-avatar { 
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 
 
+.outer-circle {
 
+  justify-content: center;
+  align-items: center;
 
+  padding: 5px;
+  /* Espaçamento interno de 12 pixels */
+  border: 2px solid #E3464E;
+  /* Borda de 2 pixels na cor #E3464E */
+  border-radius: 80%;
+}
+
+#perfil {
+  width: 87px;
+  height: 87px;
+}
 
 
 
