@@ -20,6 +20,7 @@
   --text-color-secondary: var(--gray-500);
   /* Cor secundária do texto */
   --border-color: var(--gray-400);
+   margin: 0 auto;
 
 }
 /* Definição de variáveis globais para as fontes */
@@ -34,6 +35,11 @@
   --font-size-text-md: 16px;
   --font-size-text-sm: 14px;
   --line-height: 1.2;
+}
+
+.main-container-size {
+  max-width: 1366px;
+  max-height: 2934px;
 }
 
 /* Estilos globais */
