@@ -1,0 +1,9 @@
+.main-section {
+  display: flex;
+  justify-items: center;
+  width:1366px;
+  height: 750px;
+  background: #16181D;
+  margin: 0 auto;
+  align-items: center;
+}
