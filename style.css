@@ -1,6 +1,7 @@
 body {
   
   background-color: #292C34;
+
   display: flex;
   justify-content: center;
   /* Centraliza a div na horizontal */
@@ -10,3 +11,4 @@ body {
   margin: 0;
 
 }
+
