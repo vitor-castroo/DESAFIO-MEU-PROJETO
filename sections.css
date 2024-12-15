@@ -1,16 +1,15 @@
 .main-section {
-  
+
   display: flex;
-  justify-items: center;
-  width:1366px;
+  justify-content: center;
+  align-items: center;
+  width: 1366px;
   height: 750px;
   background: #16181D;
-  margin: 0 auto;
-  align-items: center;
   background-image: url(assets/Background_Intro.png);
   background-size: cover;
-  background-position: center; /* Centraliza a imagem na seção */ 
+  background-position: center;
   background-repeat: no-repeat;
- overflow:
+  margin-bottom: 0;
 
 }

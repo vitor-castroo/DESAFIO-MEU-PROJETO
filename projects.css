@@ -1,0 +1,62 @@
+#projects-container {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+}
+
+#main-container {
+  background-color: #292C34;
+  min-height: 750px;
+}
+
+#projects-container {
+
+  background-color: #292C34;
+  height: 917px;
+  /* Define a altura da div projects-container */
+  margin-top: 0;
+
+}
+
+#projects {
+  margin-top: 0;
+  width: 100%;
+  width: 1366px;
+  height: 917px;
+  height: 100%;
+  /* Garante que a seção projects ocupe toda a altura da div projects-container */
+  background-color: #16181D;
+  /* Exemplo de cor de fundo para a seção de projetos */
+  padding: 50px;
+  text-align: center;
+  /* Centraliza o texto */
+}
+
+.section-header-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-bottom: 56px; /* Espaço inferior externo de 56px */
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column; /* Organiza itens verticalmente */
+  justify-content: center; /* Centraliza conteúdo verticalmente */
+  align-items: center; /* Centraliza conteúdo horizontalmente */
+  width: 1040px;
+  height: 584px;
+  margin-bottom:144px;
+}
+
+.section-header h2 {
+  color: #E2E4E9;
+  margin: 0; /* Remove margem padrão */
+}
+
+.subtitle-span {
+  font-size: var(--font-size-subtitle);
+  margin-bottom: 8px; /* Espaçamento entre span e h2 */
+}

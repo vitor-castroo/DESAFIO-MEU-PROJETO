@@ -1,7 +1,13 @@
 body {
-  
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+
   background-color: #292C34;
-  
+ 
 
 
   justify-content: center;
@@ -12,14 +18,16 @@ body {
 
 }
 
-
-.page-container {
-  width: 1366px;
-  min-height: 2934px;
-  background-color: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
 }
 
+
+
 html {
-  scroll-behavior: smooth; /* Adiciona rolagem suave */
+  scroll-behavior: smooth;
+  /* Adiciona rolagem suave */
 }

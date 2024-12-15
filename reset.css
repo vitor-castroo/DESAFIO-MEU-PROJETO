@@ -9,10 +9,3 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  overflow-x: hidden;
-  display: flex;           /* Adiciona display flex */
-  flex-direction: column;  /* Organiza o conteúdo verticalmente */
-  align-items: center;     /* Centraliza horizontalmente */
-  
-}
