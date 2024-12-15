@@ -5,7 +5,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #16181D;
+
   box-sizing: border-box;
   flex-direction: column;
  
@@ -127,6 +127,86 @@ p.small {
 span {
   color: #E3464E;
 }
+.tech-item.node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centraliza o conteúdo */
+  width: 119px;
+  height: 40px;
+  padding: 16px, 8px;
+  background-color: #292C34;
+  border-radius: 999px
+}
+
+.tech-item.css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centraliza o conteúdo */
+  width: 92px;
+  height: 40px;
+  padding: 16px, 8px;
+  background-color: #292C34;
+  border-radius: 999px
+}
+
+.tech-item.html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centraliza o conteúdo */
+  width: 105px;
+  height: 40px;
+  padding: 16px, 8px;
+  background-color: #292C34;
+  border-radius: 999px
+
+}
+
+
+.tech-item.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centraliza o conteúdo */
+  width: 114px;
+  height: 40px;
+  padding: 16px, 8px;
+  background-color: #292C34;
+  border-radius: 999px
+
+}
+
+.tech-item.react {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centraliza o conteúdo */
+  width: 106px;
+  height: 40px;
+  padding: 16px, 8px;
+  background-color: #292C34;
+  border-radius: 999px 
+}
+
+.tech-item.javascript {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centraliza o conteúdo */
+  width: 138px;
+  height: 40px;
+  padding: 16px, 8px;
+  background-color: #292C34;
+  border-radius: 999px
+
+}
+
+
+
+  
+}
 
 .icon-container {
   align-items: center;
@@ -146,12 +226,15 @@ span {
   align-items: center;
   justify-content: center;
   height: 40px;
-  color: #fff;
+ 
   border: none;
 
 }
 
+
+
 .tech-item img {
+  fill: #EABD5F;
   width: 24px;
   height: 24px;
   margin-right: 10px;
@@ -163,29 +246,7 @@ span {
 }
 
 
-.tech-item .html {
 
 
-  .tech-item .html img {
-    color: ;
-  }
-
-}
-
-.tech-item.javascript img {
-  fill: #EABD5F;
-}
 
 
-.tech-item.javascript {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* Centraliza o conteúdo */
-  width: 138px;
-  height: 40px;
-  padding: 16px, 8px;
-  background-color: #292C34;
-  border-radius: 999px
-}

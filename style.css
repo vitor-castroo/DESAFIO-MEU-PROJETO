@@ -1,14 +1,25 @@
 body {
   
   background-color: #292C34;
+  
 
-  display: flex;
+
   justify-content: center;
   /* Centraliza a div na horizontal */
   align-items: center;
   /* Centraliza a div na vertical */
-  height: 100vh;
-  margin: 0;
+
 
 }
 
+
+.page-container {
+  width: 1366px;
+  min-height: 2934px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  scroll-behavior: smooth; /* Adiciona rolagem suave */
+}

@@ -1,4 +1,5 @@
 .main-section {
+  
   display: flex;
   justify-items: center;
   width:1366px;
@@ -6,4 +7,10 @@
   background: #16181D;
   margin: 0 auto;
   align-items: center;
+  background-image: url(assets/Background_Intro.png);
+  background-size: cover;
+  background-position: center; /* Centraliza a imagem na seção */ 
+  background-repeat: no-repeat;
+ overflow:
+
 }
