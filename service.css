@@ -1,0 +1,99 @@
+.service {
+    width: 1366px;
+    height: 480px;
+    background-color: #0D0E11;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-service {
+    width: 100%; /* Largura total */
+    max-width: 355px; /* Limita a largura máxima */
+    height: auto; /* Ajustado para auto para incluir o espaçamento corretamente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+  
+  .service-header {
+    width: 100%; /* Largura total */
+    max-width: 355px; /* Limita a largura máxima */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 56px; /* Espaçamento de 56px abaixo do header */
+  }
+  
+  .service-subtitle {
+    width: 100%; /* Largura total */
+    max-width: 355px; /* Limita a largura máxima */
+    height: 24px;
+    font-size: 16px;
+    color: #E3464E;
+    margin-bottom: 10px; /* Ajuste conforme necessário */
+  }
+  
+  .service-title {
+    width: 100%; /* Largura total */
+    max-width: 355px; /* Limita a largura máxima */
+    height: 29px;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  
+  .service-grid {
+    width: 100%; /* Largura total */
+    max-width: 888px; /* Limita a largura máxima */
+    height: 155px;
+    display: grid; /* Define o layout como grid */
+    grid-template-columns: repeat(3, 280px); /* Três colunas de 280px cada */
+    gap: 24px; /* Espaçamento entre os itens do grid */
+    margin: 0 auto; /* Centraliza o grid horizontalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
+  
+  .service-card {
+    width: 280px;
+    height: 155px;
+    background-color: #1F1F1F;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease, border 0.3s ease; /* Transição suave para transformação e borda */
+  }
+
+  .service-card:hover { 
+    transform: scale(1.05); /* Aumenta levemente o tamanho do card */ border: 2px solid #E3464E;
+  }
+  
+  .service-image img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 10px 0;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    color: #C0C4CE;
+  }
+  
