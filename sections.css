@@ -1,5 +1,4 @@
 .main-section {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,8 +10,20 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 0;
-
+  position: relative; /* Necessário para posicionamento absoluto do filho */
 }
 
+.double-down {
+  position: absolute;       /* Posicionamento absoluto para ajustar com bottom */
+  width: 40px;              /* Largura da imagem */
+  height: auto;             /* Mantém a proporção da imagem */
+  left: 50%;                /* Centraliza horizontalmente */
+  bottom: 20px;             /* Ajusta a posição vertical para o fundo */
+  transform: translateX(-50%); /* Centraliza a imagem horizontalmente */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Adiciona transição suave */
+}
 
-
+.double-down:hover {
+  opacity: 0.7;             /* Reduz a opacidade ao passar o mouse */
+  transform: translate(-50%, -5px); /* Move a imagem ligeiramente para cima */
+}

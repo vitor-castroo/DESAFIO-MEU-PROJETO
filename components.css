@@ -1,99 +1,187 @@
-#container-projects {
-
-  display: flex;
-  /* Use flexbox para organizar as imagens */
-  flex-wrap: wrap;
-  /* Permite que as imagens ocupem várias linhas se necessário */
-  justify-content: center;
-  width: 1040px;
-  height: 584px;
+/* Estilos para a div com a classe contact */
+.contact {
+  position: relative;
+  width: 1366px;
+  height: 787px;
+  background-color: #292C34;
   margin: 0 auto;
-  /* Centraliza o contêiner na página */
-  text-align:
+}
+
+.contact img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-header {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 91px;
+}
+
+.contact-header h3,
+.contact-header h2,
+.contact-header p {
+  margin-bottom: 8px;
+}
+
+.contact-header p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-header h3 {
+  color: #BB72E9;
+  font-size: var(--font-size-subtitle);
+  font-family: var(--font-inconsolata);
+}
+
+.contact-header h2 {
+  color: #E2E4E9;
+  font-size: var(--font-size-title-md);
+  font-family: var(--font-asap);
+}
+
+.contact-header p {
+  color: #C0C4CE;
+  font-size: var(--font-size-title-sm);
+  font-family: var(--font-maven-pro);
+}
+
+.container-links {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-links button {
+  background-color: #292C34;
+  width: 400px;
+  height: 68px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container-links button:last-child {
+  margin-bottom: 0;
+}
+
+.container-links button span {
+  color: #C0C4CE;
+  font-size: 16px;
+  font-family: var(--font-maven-pro);
+  margin-left: 12px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.container-links button:hover {
+  transform: scale(1.05);
+}
+
+#container-projects {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 1040px;
+height: 584px;
+margin: 0 auto;
+text-align: center; /* Completei a propriedade text-align */
 }
 
 #container-projects img {
-  width:306px;
-  height: 156px;
-  /* Garante que as imagens não excedam a largura do contêiner */
-  height: auto;
-  /* Mantém a proporção das imagens */
-  border-radius: 8px;
-  margin: 12px;
-
+width: 306px;
+height: 156px;
+border-radius: 8px;
+margin: 12px;
 }
 
+.section-header {
+text-align: center;
+margin-bottom: 60px;
+}
 
-  .section-header {
-    text-align: center;
-    margin-bottom: 60px;
-  }
+.section-subtitle {
+color: #E31C58;
+font-size: 1rem;
+font-weight: 500;
+margin-bottom: 8px;
+display: block;
+}
 
-  .section-subtitle {
-    color: #E31C58;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 8px;
-    display: block;
-  }
+.section-title {
+color: white;
+font-size: 2rem;
+font-weight: 700;
+}
 
-  .section-title {
-    color: white;
-    font-size: 2rem;
-    font-weight: 700;
-  }
+/* Grid de projetos */
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 24px;
+}
 
-  /* Grid de projetos */
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-  }
+/* Cards de projeto */
+.project-card {
+background: #1F2937;
+border-radius: 8px;
+overflow: hidden;
+transition: transform 0.3s ease;
+}
 
-  /* Cards de projeto */
-  .project-card {
-    background: #1F2937;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-  }
+.project-card:hover {
+transform: translateY(-5px);
+}
 
-  .project-card:hover {
+.project-image {
+width: 100%;
+height: 200px;
+overflow: hidden;
+}
 
-    transform: translateY(-5px);
+.project-image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.3s ease;
+}
 
-  }
+.project-card:hover .project-image img {
+transform: scale(1.05);
+}
 
-  .project-image {
+.project-card h3 {
+color: white;
+font-size: 1.25rem;
+font-weight: 600;
+padding: 16px 20px 8px;
+}
 
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    
-  }
-
-
-  .project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-
-  .project-card:hover .project-image img {
-    transform: scale(1.05);
-  }
-
-  .project-card h3 {
-    color: white;
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 16px 20px 8px;
-  }
-
-  .project-card p {
-    color: #9CA3AF;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    padding: 0 20px 20px;
-  }
+.project-card p {
+color: #9CA3AF;
+font-size: 0.875rem;
+line-height: 1.5;
+padding: 0 20px 20px;
+}
