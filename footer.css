@@ -1,0 +1,131 @@
+/* Estilos para a div com a classe contact */
+.contact {
+    position: relative;
+    width: 1366px;
+    /* Largura do container */
+    height: 787px;
+    /* Altura do container */
+    background-color: #292C34;
+    /* Cor de fundo */
+    margin: 0 auto;
+    /* Centraliza o container na página */
+
+
+}
+
+.contact img {
+    position: relative;
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto;
+    /* Mantém a proporção da imagem */
+
+}
+
+.contact-header {
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* Centraliza a div no meio do container */
+    top: 20%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    /* Alinha os itens verticalmente */
+    justify-content: center;
+    /* Centraliza o conteúdo verticalmente */
+    align-items: center;
+    width: 420px;
+    /* Largura do container */
+    height: 91px;
+
+}
+
+.contact-header h3,
+.contact-header h2,
+.contact-header p {
+    margin-bottom: 8px;
+    /* Espaçamento inferior de 8px */
+}
+
+/* Remover o último espaçamento inferior para alinhar corretamente */
+.contact-header p:last-child {
+    margin-bottom: 0;
+
+}
+
+
+
+
+
+.contact-header h3 {
+
+    color: #BB72E9;
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-inconsolata);
+
+}
+
+.contact-header h2 {
+    color: #E2E4E9;
+    font-size: var(--font-size-title-md: 24px);
+    font-family: var(--font-asap);
+}
+
+
+
+.contact-header p {
+
+    color: #C0C4CE;
+    font-size: var(--font-size-title-sm: 16px);
+    font-family: var(--font-maven-pro);
+
+
+}
+
+
+.container-links {
+    position: absolute;
+    top: 55%;
+    /* Posiciona abaixo do contact-header */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centraliza a div no meio do container */
+    width: 400px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    /* Alinha os botões verticalmente */
+    align-items: center;
+    /* Centraliza os botões horizontalmente */
+    justify-content: space-between;
+    /* Distribui o espaço uniformemente */
+
+}
+
+
+
+/* Estilos para os botões dentro da container-links */
+.container-links button {
+    background-color: #292C34;
+    width: 400px;
+    height: 68px;
+    margin-bottom: 16px;
+    /* Espaçamento inferior de 16px */
+    border-radius: 8px;
+    /* Bordas arredondadas de 8px */
+    border: none;
+    /* Remove qualquer borda */
+    color: white;
+    /* Cor do texto */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor de ponteiro para indicar que é clicável */
+    outline: none;
+}
+
+/* Remover o espaçamento inferior do último botão */
+.container-links button:last-child {
+    margin-bottom: 0;
+}
